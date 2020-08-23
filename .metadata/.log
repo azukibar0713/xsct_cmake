@@ -1,27 +1,27 @@
-!SESSION 2020-08-23 15:13:40.548 -----------------------------------------------
+!SESSION 2020-08-23 16:22:34.611 -----------------------------------------------
 eclipse.buildId=2019.1
 java.version=1.8.0_112
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
-Framework arguments:  -application com.xilinx.sdk.cmdline.service 65072
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.xilinx.sdk.cmdline.service 65072 -data F:/work/ws_xsct_proj_cmake
+Framework arguments:  -application com.xilinx.sdk.cmdline.service 49582
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.xilinx.sdk.cmdline.service 49582 -data F:/work/ws_xsct_proj_cmake
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:13:47.827
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:36.297
 !MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-10
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:05.067
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:36.301
 !MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-10
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:06.223
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.012
 !MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:06.524
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.044
 !MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:06.772
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.058
 !MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:06.809
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.093
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, {"zynq_ultra_ps_e_0": {"hier_name": "zynq_ultra_ps_e_0",
 "type": "zynq_ultra_ps_e",
 "version": "3.3",
@@ -679,10 +679,10 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.xilin
 },
 }]. Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:06.817
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.100
 !MESSAGE XSCT Command: [hsi::utils::get_supported_os -json F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:06.854
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.131
 !MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, {"psu_cortexa53_0": {"freertos10_xilinx_v1_3": {"name": "freertos10_xilinx",
 "version": "1.3",
 "desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
@@ -783,58 +783,61 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.xilin
 },
 }]. Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:08.179
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.439
 !MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -sw bsp -dir F:/work/ws_xsct_proj_cmake/bsp -processor psu_cortexr5_0 -os freertos10_xilinx], Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:08.352
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.545
 !MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -sw bsp -dir F:/work/ws_xsct_proj_cmake/bsp -processor psu_cortexr5_0 -os freertos10_xilinx], Result: [null, ]. Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:08.523
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.628
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:08.525
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.630
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:08.526
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.631
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:08.533
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.635
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
 "osname": "freertos10_xilinx",
 "osver": "1.3",
 }]. Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:08.534
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:37.636
 !MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss F:/work/ws_xsct_proj_cmake/bsp], Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:21.742
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:39.645
 !MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss F:/work/ws_xsct_proj_cmake/bsp], Result: [null, ]. Thread: Thread-13
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.798
+!ENTRY org.eclipse.cdt.core 1 0 2020-08-23 16:22:40.329
+!MESSAGE Indexed 'bsp' (0 sources, 0 headers) in 0.421 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.287
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.801
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.289
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.802
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.290
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.806
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.297
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
 "osname": "freertos10_xilinx",
 "osver": "1.3",
 }]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.815
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.301
 !MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.818
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.302
 !MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.820
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.303
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.866
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.344
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
 "description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
 "supp_proc": "psu_cortexr5",
@@ -1102,79 +1105,307 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.870
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.346
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.872
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.352
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.873
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.353
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.875
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.355
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
 "osname": "freertos10_xilinx",
 "osver": "1.3",
 }]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.876
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.356
 !MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.886
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.365
 !MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.887
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.366
 !MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.889
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.367
 !MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.890
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.368
 !MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app empty_application -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.907
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.378
 !MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app empty_application -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Result: [null, 1]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.914
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.379
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.917
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.390
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.918
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.391
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:24.921
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.395
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
 "osname": "freertos10_xilinx",
 "osver": "1.3",
 }]. Thread: Thread-35
 
-!ENTRY org.eclipse.cdt.core 1 0 2020-08-23 15:14:25.951
-!MESSAGE Indexed 'bsp' (141 sources, 113 headers) in 3.82 sec: 8,687 declarations; 49,171 references; 98 unresolved inclusions; 34 syntax errors; 1,256 unresolved names (2.1%)
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.396
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.200
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.398
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.398
+!MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.400
+!MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.401
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app openamp_echo_test -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.430
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app openamp_echo_test -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Result: [{Format=This application requires OpenAMP and Libmetal libraries in the Board Support Package., Time=1598167362407, Code=1}, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.432
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.433
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.434
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.436
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.437
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.438
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.439
+!MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.440
+!MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.464
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app GMIO_bandwidth -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.470
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app GMIO_bandwidth -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Result: [null, 1]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.493
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.510
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.511
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.514
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.514
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.530
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.531
+!MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.532
+!MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.533
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app zynq_fsbl -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.543
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app zynq_fsbl -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Result: [{Format=This application is supported only for CortexA9 processors., Time=1598167362539, Code=1}, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.544
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.546
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.547
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.549
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.549
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.551
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.551
+!MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.567
+!MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.568
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app peripheral_tests -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.576
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app peripheral_tests -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Result: [null, 1]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.577
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.579
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.580
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.581
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.581
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.581
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.581
+!MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.581
+!MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.581
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app ddr_self_refresh -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.615
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app ddr_self_refresh -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Result: [{Format=This application is supported only on the Standalone Board Support Package., Time=1598167362610, Code=1}, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.616
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.618
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.619
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.621
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.621
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.623
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.623
+!MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.624
+!MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.625
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app versal_psmfw -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.631
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app versal_psmfw -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Result: [{Format=This application is supported only for PSM Microblaze processor., Time=1598167362630, Code=1}, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.632
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.634
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.635
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.637
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.638
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.639
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.639
+!MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.640
+!MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.641
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app freertos_hello_world -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.677
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -os freertos10_xilinx -processor psu_cortexr5_0 -app freertos_hello_world -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -arch {}], Result: [null, 1]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.684
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.686
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.687
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:42.690
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: Thread-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.333
 !MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.204
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.335
 !MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.205
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.337
 !MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.208
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.340
 !MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {}]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.216
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.341
 !MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs F:/work/ws_xsct_proj_cmake/hw/system.hdf psu_cortexr5_0], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.233
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.344
 !MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs F:/work/ws_xsct_proj_cmake/hw/system.hdf psu_cortexr5_0], Result: [null, psu_acpu_gic psu_adma_0 psu_adma_1 psu_adma_2 psu_adma_3 psu_adma_4 psu_adma_5 psu_adma_6 psu_adma_7 psu_afi_0 psu_afi_1 psu_afi_2 psu_afi_3 psu_afi_4 psu_afi_5 psu_afi_6 psu_ams psu_apm_0 psu_apm_1 psu_apm_2 psu_apm_5 psu_apu psu_cci_gpv psu_cci_reg psu_coresight_0 psu_crf_apb psu_crl_apb psu_csu_wdt psu_csudma psu_ctrl_ipi psu_ddr_phy psu_ddr_qos_ctrl psu_ddr_xmpu0_cfg psu_ddr_xmpu1_cfg psu_ddr_xmpu2_cfg psu_ddr_xmpu3_cfg psu_ddr_xmpu4_cfg psu_ddr_xmpu5_cfg psu_ddrc_0 psu_dp psu_dpdma psu_efuse psu_fpd_gpv psu_fpd_slcr psu_fpd_slcr_secure psu_fpd_xmpu_cfg psu_fpd_xmpu_sink psu_gdma_0 psu_gdma_1 psu_gdma_2 psu_gdma_3 psu_gdma_4 psu_gdma_5 psu_gdma_6 psu_gdma_7 psu_gpio_0 psu_gpu psu_i2c_1 psu_iou_scntr psu_iou_scntrs psu_iousecure_slcr psu_iouslcr_0 psu_ipi_1 psu_lpd_slcr psu_lpd_slcr_secure psu_lpd_xppu psu_lpd_xppu_sink psu_mbistjtag psu_message_buffers psu_ocm psu_ocm_ram_0 psu_ocm_xmpu_cfg psu_pmu_global_0 psu_r5_0_atcm psu_r5_0_btcm psu_r5_ddr_0 psu_r5_tcm_ram_0 psu_rcpu_gic psu_rpu psu_rsa psu_rtc psu_sd_0 psu_sd_1 psu_serdes psu_siou psu_smmu_gpv psu_smmu_reg psu_spi_0 psu_spi_1 psu_ttc_0 psu_ttc_1 psu_ttc_2 psu_ttc_3 psu_uart_0 psu_uart_1 psu_usb_0 psu_usb_1 psu_usb_xhci_0 psu_usb_xhci_1 psu_wdt_0 psu_wdt_1]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.234
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.345
 !MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.252
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.367
 !MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"psu_acpu_gic": {"name": "scugic",
 "ver": "4.0",
 },
@@ -1483,10 +1714,10 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.254
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.369
 !MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.627
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.647
 !MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, {"zynq_ultra_ps_e_0": {"version": "3.3",
 "driver_info": {"generic": {"name": "generic",
 "version": "2.0",
@@ -2778,56 +3009,1501 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.630
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.647
 !MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.633
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.663
 !MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.633
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.664
 !MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.640
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.665
 !MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {}]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.642
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.667
 !MESSAGE XSCT Command: [::hsi::utils::closesw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.643
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.669
 !MESSAGE XSCT command with result: [::hsi::utils::closesw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.681
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.712
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.688
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.715
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss ], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.689
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.715
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.694
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.715
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/work/ws_xsct_proj_cmake/hw/system.hdf F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
 "osname": "freertos10_xilinx",
 "osver": "1.3",
 }]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.695
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.715
 !MESSAGE XSCT Command: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.696
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.715
 !MESSAGE XSCT command with result: [::hsi::utils::openhw F:/work/ws_xsct_proj_cmake/hw/system.hdf], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.696
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.715
 !MESSAGE XSCT Command: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.698
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.715
 !MESSAGE XSCT command with result: [::hsi::utils::opensw F:/work/ws_xsct_proj_cmake/bsp/system.mss], Result: [null, ]. Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.698
-!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -app empty_application -processor psu_cortexr5_0 -os freertos10_xilinx -dir F:/work/ws_xsct_proj_cmake/app_hello/src], Thread: Thread-35
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.715
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -app freertos_hello_world -processor psu_cortexr5_0 -os freertos10_xilinx -dir F:/work/ws_xsct_proj_cmake/app_hello/src], Thread: Thread-35
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 15:14:26.775
-!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -app empty_application -processor psu_cortexr5_0 -os freertos10_xilinx -dir F:/work/ws_xsct_proj_cmake/app_hello/src], Result: [null, ]. Thread: Thread-35
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-23 16:22:43.817
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw F:/work/ws_xsct_proj_cmake/hw/system.hdf -sw F:/work/ws_xsct_proj_cmake/bsp/system.mss -app freertos_hello_world -processor psu_cortexr5_0 -os freertos10_xilinx -dir F:/work/ws_xsct_proj_cmake/app_hello/src], Result: [null, ]. Thread: Thread-35
 
-!ENTRY org.eclipse.cdt.core 1 0 2020-08-23 15:14:27.142
-!MESSAGE Indexed 'app_hello' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.core 1 0 2020-08-23 16:22:44.798
+!MESSAGE Indexed 'app_hello' (1 sources, 43 headers) in 0.595 sec: 1,145 declarations; 2,211 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:50.634
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:403)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:551)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:529)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:112)
+	at com.xilinx.sdk.cmdline.application.AppBuilder.build(AppBuilder.java:131)
+	at com.xilinx.sdk.cmdline.application.AppBuilder.build(AppBuilder.java:102)
+	at com.xilinx.sdk.cmdline.application.AppBuilder.start(AppBuilder.java:69)
+	at com.xilinx.sdk.cmdline.service.SdkTcfCmdServer.executeCommand(SdkTcfCmdServer.java:202)
+	at com.xilinx.sdk.cmdline.service.SdkTcfCmdServer.command(SdkTcfCmdServer.java:145)
+	at com.xilinx.sdk.cmdline.service.SdkTcfCmdServer.access$2(SdkTcfCmdServer.java:88)
+	at com.xilinx.sdk.cmdline.service.SdkTcfCmdServer$1.run(SdkTcfCmdServer.java:75)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:50.705
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:50.711
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:50.798
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:50.806
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:50.889
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:50.895
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:50.999
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.006
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.113
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.123
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.199
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.215
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.291
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.295
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.354
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.359
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.420
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.425
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.462
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.667
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.672
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.732
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.737
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.797
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.803
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.863
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.869
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.931
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.933
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.993
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:51.999
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.060
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.066
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.126
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.130
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.192
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.197
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.260
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.264
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.325
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.329
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.390
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.395
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.458
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.463
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.528
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.532
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.594
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.598
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.955
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:52.955
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:53.007
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:53.741
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:53.785
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:53.790
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:53.832
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:54.744
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:54.748
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:54.789
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.313
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.322
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.368
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.551
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.556
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.593
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.619
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.624
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:56.665
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:57.451
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:57.455
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:57.495
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:57.555
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:57.559
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:57.600
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:58.328
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:58.334
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:48:58.439
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:02.835
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:04.855
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:05.010
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:05.015
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:05.055
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:06.108
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:06.112
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:06.154
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:07.708
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:07.713
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:07.756
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:08.270
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:08.274
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:08.315
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:08.849
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:08.853
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:08.894
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:09.666
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:09.669
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:09.712
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:10.750
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:10.755
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:10.796
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:11.886
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:11.891
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:11.937
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:13.026
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:13.033
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:13.074
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:14.154
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:14.159
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:14.201
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:15.054
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:15.059
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:15.102
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:16.302
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:16.306
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:16.350
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:18.038
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:18.042
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:18.085
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:19.311
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:19.316
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:19.357
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:20.043
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:20.049
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:20.094
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:21.123
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-08-23 16:49:21.170
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:403)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:551)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:529)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:112)
+	at com.xilinx.sdk.cmdline.application.AppBuilder.build(AppBuilder.java:131)
+	at com.xilinx.sdk.cmdline.application.AppBuilder.build(AppBuilder.java:102)
+	at com.xilinx.sdk.cmdline.application.AppBuilder.start(AppBuilder.java:69)
+	at com.xilinx.sdk.cmdline.service.SdkTcfCmdServer.executeCommand(SdkTcfCmdServer.java:202)
+	at com.xilinx.sdk.cmdline.service.SdkTcfCmdServer.command(SdkTcfCmdServer.java:145)
+	at com.xilinx.sdk.cmdline.service.SdkTcfCmdServer.access$2(SdkTcfCmdServer.java:88)
+	at com.xilinx.sdk.cmdline.service.SdkTcfCmdServer$1.run(SdkTcfCmdServer.java:75)
+	at java.lang.Thread.run(Thread.java:745)

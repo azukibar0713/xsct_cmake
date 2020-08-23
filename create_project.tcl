@@ -23,7 +23,7 @@ catch {
     # Empty
     #createapp -name app_hello -app {Empty Application} -bsp bsp -hwproject hw -proc psu_cortexr5_0 -os freertos10_xilinx -lang c
     # Hello World
-    createapp -name app_hello -app {Empty Application} -bsp bsp -hwproject hw -proc psu_cortexr5_0 -os freertos10_xilinx -lang c
+    createapp -name app_hello -app {FreeRTOS Hello World} -bsp bsp -hwproject hw -proc psu_cortexr5_0 -os freertos10_xilinx -lang c
 }
 
 # app config
